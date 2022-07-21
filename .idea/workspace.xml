@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ece85ec4-6422-46bd-90aa-d3c508c4e969" name="Changes" comment="Revert &quot;HW2&quot;&#10;&#10;This reverts commit ccc25d54ad027c993ed3a3f8b5d736eb20e54550." />
+    <list default="true" id="d73d9e53-5a43-4837-82cc-1f865262533c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,17 +22,22 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="feature/java" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2BGQAxGCZtJKFQua4BdqFYqzqnU" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2C0vKhMLEUmADSxtkqCFMZOKb8L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,15 +47,15 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/alexr/IdeaProjects/qa_automation_ar/src/test/java&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/alexr/IdeaProjects/qa_automation_ar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MavenTest">
-    <configuration name="MavenTest" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CalculatorTest">
+    <configuration name="MavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.MavenTest" />
       <module name="qa_automation_ar" />
       <extension name="coverage">
@@ -59,7 +68,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrowserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa_automation_ar" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChromeTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_ar" />
       <extension name="coverage">
         <pattern>
@@ -68,7 +88,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.BrowserTest" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.ChromeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -76,37 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChromeTest (1)" type="TestNG" nameIsGenerated="true">
+    <configuration name="ChromeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa_automation_AR" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mavenTestNGHomework.*" />
@@ -124,22 +115,32 @@
     </configuration>
     <configuration name="ChromeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_ar" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mavenTestNGHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
       <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.ChromeTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChromeTest.chromeDriverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBrowserTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_ar" />
       <extension name="coverage">
         <pattern>
@@ -148,170 +149,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.ChromeTest" />
-      <option name="METHOD_NAME" value="chromeDriverTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.MyBrowserTest1" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.MavenTest" />
-      <item itemvalue="TestNG.ChromeTest (1)" />
-      <item itemvalue="TestNG.CalculatorTest" />
-      <item itemvalue="TestNG.BrowserTest" />
-      <item itemvalue="TestNG.CalculatorTest (1)" />
-      <item itemvalue="TestNG.ChromeTest" />
-      <item itemvalue="TestNG.ChromeTest.chromeDriverTest" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CalculatorTest (1)" />
-        <item itemvalue="TestNG.ChromeTest.chromeDriverTest" />
+        <item itemvalue="TestNG.CalculatorTest" />
+        <item itemvalue="TestNG.ChromeTest (1)" />
+        <item itemvalue="TestNG.MyBrowserTest1" />
+        <item itemvalue="Application.MavenTest" />
         <item itemvalue="TestNG.ChromeTest" />
-        <item itemvalue="TestNG.BrowserTest" />
-        <item itemvalue="TestNG.ChromeTest.chromeDriverTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ece85ec4-6422-46bd-90aa-d3c508c4e969" name="Changes" comment="" />
-      <created>1656529808272</created>
+      <changelist id="d73d9e53-5a43-4837-82cc-1f865262533c" name="Changes" comment="" />
+      <created>1657952256403</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1656529808272</updated>
+      <updated>1657952256403</updated>
     </task>
-    <task id="LOCAL-00001" summary="HW2">
-      <created>1657653757150</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657653757150</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Revert &quot;HW2&quot;&#10;&#10;This reverts commit ccc25d54ad027c993ed3a3f8b5d736eb20e54550.">
-      <created>1657656916887</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1657656916887</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="Space.CommitStatus" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="6ffc4ac5-7d17-4601-b91e-ee91b431d044">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-        <entry key="9d638a85-2e25-4377-bdf4-0bf9033cd1c9">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="feature/java" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="6ffc4ac5-7d17-4601-b91e-ee91b431d044" value="TOOL_WINDOW" />
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="HW2" />
-    <MESSAGE value="Revert &quot;HW2&quot;&#10;&#10;This reverts commit ccc25d54ad027c993ed3a3f8b5d736eb20e54550." />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;HW2&quot;&#10;&#10;This reverts commit ccc25d54ad027c993ed3a3f8b5d736eb20e54550." />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/qa_automation_ar$ChromeTest__1_.ic" NAME="ChromeTest (1) Coverage Results" MODIFIED="1657654229871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>mavenTestNGHomework.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/qa_automation_ar$BrowserTest__1_.ic" NAME="BrowserTest (1) Coverage Results" MODIFIED="1656958274082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>mavenTestNGHomework.*</FILTER>
-    </SUITE>
   </component>
 </project>

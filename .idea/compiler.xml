@@ -3,9 +3,13 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qa_automation_ar" />
+        <module name="qa_automation_AR" />
+      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="qa_automation_ar" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
